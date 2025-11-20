@@ -20,6 +20,9 @@ Neovim
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
+-- My keymaps
+vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, { desc = 'Explore' })
+
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = false
 
