@@ -40,6 +40,17 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
+-- Fat cursor
+vim.opt.guicursor = ''
+
+-- Turn off highlighting on searched terms, add incremental search
+vim.opt.hlsearch = false
+vim.opt.incsearch = true
+
+-- Dragging lines in Visual Mode
+vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
+vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
+
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.o.mouse = 'a'
 
