@@ -11,3 +11,5 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     vim.hl.on_yank()
   end,
 })
+
+-- vim: ts=4 sts=4 sw=4 et
