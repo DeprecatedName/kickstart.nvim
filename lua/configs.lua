@@ -5,6 +5,8 @@ vim.g.have_nerd_font = false
 
 vim.o.number = true
 vim.o.relativenumber = true
+-- colorcolumn to guide
+-- vim.opt.colorcolumn = '100'
 
 -- Tabs
 vim.opt.tabstop = 4
@@ -14,6 +16,9 @@ vim.opt.expandtab = true
 
 -- Fat cursor
 vim.opt.guicursor = ''
+
+-- Disable line wrap
+vim.opt.wrap = false
 
 -- Turn off highlighting on searched terms, add incremental search
 vim.opt.hlsearch = false
