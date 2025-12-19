@@ -14,15 +14,15 @@ Neovim
 
 --]]
 
-require 'configs'
+require("configs")
 
-require 'keymaps'
+require("keymaps")
 
-require 'autocommands'
+require("autocommands")
 
-require 'lazy-bootstrap'
+require("lazy-bootstrap")
 
-require 'lazy-plugins'
+require("lazy-plugins")
 
 vim.loader.enable(false)
 
