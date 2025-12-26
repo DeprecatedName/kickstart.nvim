@@ -254,7 +254,14 @@ return {
                         },
                     },
                 },
+
                 -- basedpyright = {},
+
+                zls = {
+                    settings = {
+                        warn_style = true,
+                    },
+                },
 
                 -- gopls = {},
                 -- pyright = {},

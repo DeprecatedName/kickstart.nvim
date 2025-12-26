@@ -4,6 +4,19 @@ vim.keymap.set("n", "<leader>pv", vim.cmd.Ex, { desc = "Explore" })
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
+-- Keep cursor in the middle when half-page jumping
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
+
+-- Keep cursor in the middle when searching
+vim.keymap.set("n", "n", "nzzzv")
+vim.keymap.set("n", "N", "Nzzzv")
+
+-- Copy into system clipboard
+vim.keymap.set("n", "<leader>y", '"+y', { desc = "Copy into system clipboard" })
+vim.keymap.set("v", "<leader>y", '"+y', { desc = "Copy into system clipboard" })
+vim.keymap.set("n", "<leader>Y", '"+Y', { desc = "Copy line into system clipboard" })
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
