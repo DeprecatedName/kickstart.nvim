@@ -3,17 +3,13 @@
 require("lazy").setup({
     require("plugins.which-key"),
 
-    require("plugins.telescope"),
+    -- require("plugins.telescope"),
 
     require("plugins.lspconfig"),
 
     require("plugins.conform"),
 
-    require("plugins.tokyonight"),
-
     require("plugins.mini"),
-
-    require("plugins.treesitter"),
 
     require("plugins.oil"),
 
