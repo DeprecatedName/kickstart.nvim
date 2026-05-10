@@ -1,13 +1,6 @@
 --require("colorscheme")
-
+require("vim._core.ui2").enable({})
 require("configs")
-
 require("keymaps")
-
 require("autocommands")
-
-require("lazy-bootstrap")
-
-require("lazy-plugins")
-
--- vim: ts=4 sts=4 sw=4 et
+require("vim-pack-plugins")
